@@ -16,13 +16,13 @@ To use CareerCraft AI, follow these steps:
 
 1. Clone or download the repository to your local machine.
 2. Install the required libraries using pip:
-
+   
    pip install -r requirements.txt
+   
 4. Run the Streamlit app:
-
+   
    streamlit run streamlit_app.py
-
-
+   
 ## Usage
 
 1. **ATS Scanner**: Upload your resume to the application to analyze its compatibility with ATS.
@@ -42,7 +42,6 @@ To use CareerCraft AI, follow these steps:
 ## Contributors
 
 - [Muhammad Moid](https://github.com/MoidAltaf33/)
-- 
 ## Acknowledgements
 
 - Streamlit: https://streamlit.io/
