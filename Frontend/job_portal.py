@@ -5,6 +5,17 @@ class JobPortal:
 
     @staticmethod
     def Job_Suggestion():
+        """        Display job suggestions based on user input.
+
+        This function displays job suggestions based on the user's input query and the total number of jobs to display.
+        It first takes input from the user for the job search query and the total number of jobs to display.
+        Then it searches for the jobs and displays the job details along with the description and how to apply.
+
+
+        Raises:
+            Exception: If an error occurs during the job suggestion process.
+        """
+
         try:
             JOB_HTML_TEMPLATE = """
             <div style="width:100%;height:100%;margin:1px;padding:5px;position:relative;border-radius:5px;border-bottom-right-radius: 10px;

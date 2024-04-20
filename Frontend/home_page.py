@@ -3,6 +3,11 @@ import streamlit as st
 
 class home():
     def home_page():
+        """        Render the home page with custom CSS and HTML structure.
+
+        This function renders the home page with custom CSS and HTML structure using Streamlit's `st.markdown` function.
+        """
+
         custom_css = """
             <style>
                 .section-container {

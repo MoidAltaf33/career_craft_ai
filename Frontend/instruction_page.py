@@ -3,6 +3,12 @@ import streamlit as st
 
 class Instruction():
     def instruction():
+        """        Render the HTML content with custom CSS and steps data.
+
+        This function renders the HTML content with custom CSS styles and steps data. It includes sections for each step
+        with a title, description, example, and an image. The custom CSS styles are applied to the rendered HTML content.
+        """
+
         # Custom CSS styles
         custom_css = """
         <style>

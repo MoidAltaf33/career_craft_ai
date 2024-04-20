@@ -4,6 +4,18 @@ import pandas as pd
 class JobSearcher:
     @staticmethod
     def scrape_jobs(query, total_jobs):
+        """        Scrape job data from an API based on the given query and total number of jobs.
+
+        This function sends a request to the specified API endpoint with the given query and total number of jobs to be retrieved. It then processes the response data to extract job information and returns it as a pandas DataFrame.
+
+        Args:
+            query (str): The search query for job listings.
+            total_jobs (int): The total number of job listings to be retrieved.
+
+        Returns:
+            pandas.DataFrame: A DataFrame containing the job information including title, company, description, location, source, and link.
+        """
+
         url = "https://jsearch.p.rapidapi.com/search"
         headers = {
             "X-RapidAPI-Key": "c786eac3d4mshb49a5b348d87934p13bd86jsn5f87ba1590de",

@@ -16,6 +16,11 @@ image_path = r"assets/logo/Colorlogo.png"
 
 
 def main():
+    """    Main function to control the application flow.
+
+    This function sets the page configuration to a wide layout and hides the menu and footer. It then checks the session state for a switch button and updates the menu option accordingly. It then displays an option menu in the sidebar and based on the selected option, it calls different functions to display the corresponding content. It also includes a button to navigate to the next page and a footer note.
+    """
+
     st.set_page_config(layout="wide")
     hide_menu = """
         <style>
